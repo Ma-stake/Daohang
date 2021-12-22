@@ -1,0 +1,148 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+.wrapper{
+	width: 100%;
+	height: 100%;
+	background: url(../img/bz.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.search{
+	position: relative;
+	top: 38%;
+	
+}
+.search form{
+	display: flex;
+	justify-content: center;
+}
+.search input{
+	border-radius: 7px;
+	width: 30%;
+	line-height: 30px;
+}
+.searchicon{
+	background: url(../img/baidu.png);
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	overflow: hidden;
+}
+input{
+	outline: none;
+	border: none;
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+}
+.ss{
+	background-image: url(../img/ss.png);
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	cursor: pointer;
+	position: relative;
+	left: 5px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5px;
+}
+.clear{
+	background-image: url(../img/clear.png);
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	right: 50px;
+	top: 5px;
+	position: relative;
+	cursor: pointer;
+/* 这里不能使用display:none;不然会使div不占位置,会导致其他元素变动 */
+	visibility: hidden;
+}
+.weather{
+	width: 60%;
+	height: 50px;
+	position: absolute;
+	background: rgba(255,255,255,.5);
+	border-radius: 8px;
+	top: 30px;
+	left: 20%;
+	display: flex;
+	justify-content: space-around;
+}
+.weather div{
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	cursor: pointer;
+	top: 10px;
+}
+.btn_l{
+	background: url(../img/l.png);
+}
+.btn_bf{
+	background: url(../img/bf.png);
+}
+.btn_zt{
+	background: url(../img/zt.png);
+}
+.btn_r{
+	background: url(../img/r.png);
+}
+.setting{
+	background: url(../img/setting.png);
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	top: 0;
+	position: absolute;
+	right: 0;
+	background-color: rgba(255,255,255,.5);
+	border-radius: 20px;
+	cursor: pointer;
+	z-index: 999;
+}
+.settings{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgba(255,255,255,.5);
+	border-radius: 20px;
+	width: 20%;
+	height: 100%;
+}
+.settings .bj_btn{
+	position: relative;
+	width: 40%;
+	height: 30px;
+	left: 30%;
+	border-radius: 30px;
+	background-color: rgba(255,255,255,.7);
+	text-align: center;
+	line-height: 30px;
+	top: 90px;
+	cursor: pointer;
+}
+.bj_btn input{
+	display: none;
+}
+.over{
+	width: 40%;
+	height: 30px;
+	background-color: rgba(255,255,255,.7);
+	position: absolute;
+	bottom: 20px;
+	left: 30%;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 30px;
+	cursor:pointer;
+}
+.auto{
+	font-size: 17px;
+	position: relative;
+	top: 90px;
+	text-align: center;
+}
